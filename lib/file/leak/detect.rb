@@ -10,7 +10,7 @@ module FileLeakDetect
   end
 end
 
-if defined?(RSpec)
+if defined?(RSpec) && Rails.env.test?
   FileLeakDetect.debug = false
   FileLeakDetect.enabled = true
   FileLeakDetect.global_opened_files = {}
