@@ -1,23 +1,22 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'leak/file/detect/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'leak-file-detect'
-  spec.version       = Leak::File::Detect::VERSION
+  spec.name          = 'file-leak-detect'
+  spec.version       = '0.1.0'
   spec.authors       = ['Dino Puller']
   spec.email         = ['dino.puller@uqido.com']
 
-  spec.summary       = %q{Leak file detection}
-  spec.description   = %q{Leak file detection}
-  spec.homepage      = 'https://github.com/Uqido/leak-file-detect'
+  spec.summary       = %q{File Leak detection for RSpec}
+  spec.description   = %q{File Leak detection for RSpec}
+  spec.homepage      = 'https://github.com/Uqido/file-leak-detect'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the "allowed_push_host"
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
     #spec.metadata["allowed_push_host"] = "TODO: Set to "http://mygemserver.com""
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = 'https://github.com/Uqido/leak-file-detect'
+    spec.metadata["source_code_uri"] = 'https://github.com/Uqido/file-leak-detect'
     #spec.metadata["changelog_uri"] = "TODO: Put your gem"s CHANGELOG.md URL here."
   else
     raise 'RubyGems 2.0 or newer is required to protect against public gem pushes.'

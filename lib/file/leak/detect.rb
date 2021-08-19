@@ -1,5 +1,3 @@
-require 'leak/file/detect/version'
-
 module FileLeakDetect
   class << self
     attr_accessor :debug

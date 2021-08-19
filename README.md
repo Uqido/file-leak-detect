@@ -1,4 +1,4 @@
-# Leak::File::Detect
+# File::Leak::Detect
 
 This is a simple gem used to detect leaked file. It works only on rspec tests.
 
@@ -8,7 +8,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 group :test do
-  gem 'leak-file-detect'
+  gem 'file-leak-detect'
 end
 ```
 
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install leak-file-detect
+    $ gem install file-leak-detect
 
 ## Usage
 
@@ -40,4 +40,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Uqido/leak-file-detect.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Uqido/file-leak-detect.

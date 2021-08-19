@@ -1,6 +1,6 @@
 require 'bundler/setup'
 require 'rspec'
-require 'leak/file/detect'
+require 'file/leak/detect'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

@@ -1,6 +1,6 @@
 require 'tempfile'
 
-RSpec.describe Leak::File::Detect do
+RSpec.describe 'File::Leak::Detect' do
   it 'Leaked file' do
     pending('This test is not pending, it fails correctly on after :each')
 
